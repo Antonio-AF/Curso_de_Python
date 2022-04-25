@@ -9,7 +9,7 @@ frame = Frame(root)
 frame2 = Frame(root)
 frame.pack(side=TOP)
 frame2.pack(side=TOP)
-lb = Label(frame, text=" Digite", width=24, relief=RIDGE, font="Arial 12 bold", \
+lb = Label(frame, text=" Digite", width=24, relief=RIDGE, font="Arial 12 bold",
            fg="blue")
 lb.pack(fill=Y)
 b0 = Button(frame2, text="0", bd=3, padx=1, pady=1, width=8, height=2)
@@ -30,7 +30,7 @@ bigual = Button(frame2, text="=", bd=3, padx=1, pady=1, width=8, height=2)
 babre = Button(frame2, text="(", bd=3, padx=1, pady=1, width=8, height=2)
 bfecha = Button(frame2, text=")", bd=3, padx=1, pady=1, width=8, height=2)
 bclear = Button(frame2, text="C", bd=3, padx=1, pady=1, width=8, height=2)
-boff = Button(frame2, text="OFF", bd=3, padx=1, pady=1, width=16, height=2, \
+boff = Button(frame2, text="OFF", bd=3, padx=1, pady=1, width=16, height=2,
               command=root.quit)
 
 # Packing:
@@ -121,7 +121,7 @@ def parenteses(ev):
 
 
 # Tecla '=' acionada:
-def finaliza(ev):
+def finaliza():
     global e, lb
     try:
         r = eval(e)  # a função eval lança exceção se não puder calcular
@@ -131,7 +131,7 @@ def finaliza(ev):
         lb.config(text="erro!")
 
 
-def clear(ev):
+def clear():
     global e, lb
     e = "0"
     lb.config(text=e)

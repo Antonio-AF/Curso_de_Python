@@ -1,10 +1,10 @@
 """
 Escreva um programa para testar se a estatistíca proposta no filme
-'Quebrando a banca' é verdadeira. Utilize o módulo random para tais TESTANDO O PYTHON.
+'Quebrando a banca' é verdadeira. Utilize o módulo random para tais Testando o Python.
 """
 import random
 
-testes = int(input("Digite o número de TESTANDO O PYTHON: "))
+testes = int(input("Digite o número de Testando o Python: "))
 
 trocar = 0
 

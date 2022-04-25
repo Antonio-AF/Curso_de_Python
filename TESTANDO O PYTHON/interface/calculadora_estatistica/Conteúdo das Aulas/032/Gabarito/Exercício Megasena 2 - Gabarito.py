@@ -4,7 +4,7 @@ quando se ganha quinas e quadras
 """
 import random
 
-n = int(input("Digite o número de TESTANDO O PYTHON: "))
+n = int(input("Digite o número de Testando o Python: "))
 soma = soma_quina = soma_quadra = 0
 megasena = list(range(1,61))
 meu = [6, 13, 25, 33, 42, 50]

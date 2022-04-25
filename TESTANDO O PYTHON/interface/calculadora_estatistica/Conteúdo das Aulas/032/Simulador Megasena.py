@@ -9,7 +9,7 @@ meu = [6, 13, 25, 33, 42, 50]
 
 megasena = list(range(1,61))
 
-n = int(input("Número de TESTANDO O PYTHON: "))
+n = int(input("Número de Testando o Python: "))
 
 soma = 0
 
