@@ -60,3 +60,9 @@ Programadores que desejam aprender de uma vez por todas a programar com Python
 Profissionais da área de programação que não conhecem ainda a linguagem Python
 Profissionais que já conhecem Python mas querem se aprofundar ou se atualizar
 Profissionais que desejam ter uma base sólida em programação Python para atuar com Ciência de Dados ou Inteligência Artificial
+
+
+# Estrutura do Curso
+<div >
+  <img height="1900em"src="https://raw.githubusercontent.com/Antonio-AF/Curso_de_Python/main/Geek%2BUniversity%2BPrograma%C3%A7%C3%A3o%2Bem%2BPython%2B%2BEssencial.png"/>
+</div>
