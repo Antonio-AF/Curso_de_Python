@@ -1,0 +1,3 @@
+Estou escrevendo em um arquivo utilizando o método with.
+Estou utilizando o modo 'w' que vem de write que é escrever 
+Estou encerrando nessa linha.
