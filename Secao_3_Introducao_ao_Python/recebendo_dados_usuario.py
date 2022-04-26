@@ -3,7 +3,7 @@ Recebendo dados do usuario:
 
 input() -> Todo dado recebido via input é do tipo String
 
-Em Python, string é tudo que esticer entre:
+Em Python, string é tudo que estiver entre:
 
 - Aspas simples;
 - Aspas duplas;
@@ -26,7 +26,7 @@ Exemplos:
 
 nome = input('Qual seu nome? ')
 
-# Exeplo de print 'antigo' 2.x
+# Exemplo de print 'antigo' 2.x
 
 #print('Seja bem-vindo(a) %s' % nome)
 

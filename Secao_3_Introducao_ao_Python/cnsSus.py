@@ -1,9 +1,9 @@
 
-cns = list(input('Digite seu CNS:')
-    #print(cns)
+cns = list(input('Digite seu CNS:'))
 
+print(cns)
 
-if len[cns] != 15
+if len(cns) != 15:
     print(False)
 
 

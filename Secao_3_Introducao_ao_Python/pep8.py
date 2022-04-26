@@ -36,7 +36,7 @@ def soma_dois():
 if 'a' in 'banana':
     print('tem)
 ###########################################################
-[4] - Linas em branco
+[4] - Linhas em branco
 
 class Classe:
     pass
@@ -45,7 +45,7 @@ class Classe:
 class ClasseSoma:
     pass
 ############################################################
-[5] - Iports
+[5] - Imports
 
 - Imports devem ser sempre feitos em linhas separadas;
 
@@ -53,7 +53,7 @@ class ClasseSoma:
 
 import sys, os
 
-#  Importt Certo.
+#  Import Certo.
 
 import sys
 import os
@@ -71,7 +71,7 @@ from types import(
     OutroType
 )
 
-# Imports devem ser colocados notopo do arquiv, logo depois de quaisquer comentário ou docstrings e
+# Imports devem ser colocados no topo do arquivo, logo depois de quaisquer comentário ou docstrings e
 # antes de constantes ou variáveis globais.
 
 [6] - Espaços em expressões e instruções.
