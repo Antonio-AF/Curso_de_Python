@@ -20,6 +20,11 @@ Este tipo é inferido ao atribuírmos o valor à mesma.
 int numero = 42;
 ```
 
+**Exemplo em Python;**
+```Python
+numero = 42
+```
+
 
 #### * Variável Global
 
@@ -54,4 +59,30 @@ Retorno:
  ```
 2- Variáveis Locais;
     - Variáveis locais são reconhecidas apenas no bloco onde foram declaradas, ou seja, seu escopo
-    está limitado so bloco onde foi declarada. 
+    está limitado so ao bloco onde foi declarada. Veja exemplo a seguir:
+ 
+ ```Python
+ 
+ def soma():
+    x = 10
+    y = 14
+    return x + y
+    
+ print(soma())
+ 
+ 
+  def mult():
+    x = 13
+    y = 45
+    return x * y
+    
+print(soma())
+print(mult())
+  
+ ```
+ Retorno:
+ ```sh
+ 34
+ 585
+ 
+ ```
