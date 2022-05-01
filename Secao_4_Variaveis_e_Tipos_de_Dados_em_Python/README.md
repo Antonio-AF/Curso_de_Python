@@ -261,4 +261,21 @@ Saída:
 <class 'complex'>
 ```
 
+#### Tipo Booleano
 
+Algebra booleana, criada por George Boole
+
+[imagem tabela verdade]()
+
+2 constante, Vertadeiro ou Falso.
+
+True -> Verdadeiro
+False -> Falso
+
+Obs: Sempre com a primeira letra maiuscula.
+
+Escrita incorreta.
+Errado: (true, false)
+
+Escrita correta em Python.
+Certo: True, False.
