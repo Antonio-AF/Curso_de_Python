@@ -242,5 +242,23 @@ Geek University
 <class 'str'>
 ```
 
+#### Tipo Complex
+
+Os números complexos são mais utilizados na engenharia e pesquisa. A parte imaginária do número recebe a letra j.
+
+```Python
+
+numero = 2j * 5j
+
+print(numero)
+print(type(numero))
+
+```
+
+Saída:
+```Sh
+9j
+<class 'complex'>
+```
 
 
