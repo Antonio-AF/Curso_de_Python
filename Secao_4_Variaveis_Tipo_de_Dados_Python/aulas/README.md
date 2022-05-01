@@ -265,18 +265,7 @@ Saída:
 
 Algebra booleana, criada por George Boole
 
-![imagem verdade]()
+![imagem verdade](https://github.com/Antonio-AF/Curso_de_Python/blob/main/Secao_4_Variaveis_Tipo_de_Dados_Python/imgs/Tabela%20Verdade.jpg?raw=true)
 ![imagem tabela verdade AND](https://github.com/Antonio-AF/Curso_de_Python/blob/main/Secao_4_Variaveis_Tipo_de_Dados_Python/imgs/Tabela%20Verdade%20AND.jpg?raw=true)
 
-2 constante, Vertadeiro ou Falso.
-
-True -> Verdadeiro
-False -> Falso
-
-Obs: Sempre com a primeira letra maiuscula.
-
-Escrita incorreta.
-Errado: (true, false)
-
-Escrita correta em Python.
-Certo: True, False.
+O tipo Booleano é um subtipo do Int e por isso pode ser representado pelos valores True e False. Quando uma variável é definida como ```Python True ```, seu valor é verdadeiro. E no caso de receber o valor ```Python False ```, seu valor é Falso.
