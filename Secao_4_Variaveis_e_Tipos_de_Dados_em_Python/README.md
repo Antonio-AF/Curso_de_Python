@@ -86,3 +86,89 @@ print(mult())
  585
  
  ```
+### Tipos Numéricos
+
+Em Python os tipos de dados usados para números se dividem em três tipos:
+
+- Inteiros
+- Números de pntos flutuante
+- Complexos
+
+#### Tipo Inteiro (int)
+
+Esse tipo representa os números inteiros positivos e negativos.
+
+**Exemplo:**
+```Python
+
+num1 = 1
+num2 = 3.1415
+
+
+print(num1 * 2)
+print(type(num1))
+print(num2)
+print(type(num2))
+
+```
+
+Retorno:
+```sh
+2
+A Variável num1 é do tipo:  <class 'int'>
+
+3141500
+A Variável num2 é do tipo:  <class 'int'>
+
+```
+O intervalo de valor desse tipo é ilimitado e está sujeto apenas à capacidade da mémoria.
+
+#### Tipo Ponto Flutuante (float)
+
+Esses são números reais, que contém casas decimais. Exemplo, comprimento de um lado de um triangulo, peso de um objeto.
+
+**Exemplo**
+
+```Python
+
+num3 = 3.141516 # Constante PI
+num4 = 2**0.5 # Raiz quadrada de 2
+
+print(num3)
+print("A Variável num3 é do Tipo: ", type(num3))
+
+print(num4)
+print("A Variável num4 é do Tipo: ", type(num4))
+
+```
+Retorno:
+```Sh
+Tipo Float ou Ponto Flutuante
+3.141516
+A Variável num3 é do Tipo:  <class 'float'>
+1.4142135623730951
+A Variável num4 é do Tipo:  <class 'float'>
+```
+
+#### Tipo Decimal
+
+Em Python nos utilizamos float para ponto flutuante, caso seja necessário uma precisão de casas decimais, podemos usar Decimal.
+
+**Exemplo**
+```Python
+
+from decimal import Decimal
+
+num1 = Decimal(5/3) # Mais precisão em casas numéricas.
+num2 = Decimal(10/3)
+
+
+print(num1)
+print(type(num1))
+
+print(num2)
+print(type(num2))
+
+```
+
+
