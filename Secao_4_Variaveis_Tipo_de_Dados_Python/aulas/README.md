@@ -265,7 +265,8 @@ Saída:
 
 Algebra booleana, criada por George Boole
 
-[imagem tabela verdade]()
+![imagem verdade]()
+![imagem tabela verdade AND](https://github.com/Antonio-AF/Curso_de_Python/blob/main/Secao_4_Variaveis_Tipo_de_Dados_Python/imgs/Tabela%20Verdade%20AND.jpg?raw=true)
 
 2 constante, Vertadeiro ou Falso.
 
