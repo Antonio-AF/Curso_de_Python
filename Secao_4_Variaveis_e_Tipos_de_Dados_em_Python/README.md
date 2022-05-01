@@ -171,4 +171,76 @@ print(type(num2))
 
 ```
 
+Saída:
+
+```Sh
+Utilizando a class Decimal para ter precisão de casas!
+
+1.6666666666666667406815349750104360282421112060546875
+<class 'decimal.Decimal'>
+3.333333333333333481363069950020872056484222412109375
+<class 'decimal.Decimal'>
+
+```
+
+#### Tipo None
+
+O tipo de dado None em python representa o tipo sem tipo, ou deveria ser conhecido também.
+como tipo vazio, porém, falar que é um tipo sem tipo é mais apropriado.
+
+Obs: O tipo None é SEMPRE espécificado com a primeira letra maiúscula.
+
+Certo: None.
+Errado: none
+
+Quando utilizamos?
+
+- Podemos utilizar None quando queremos criar uma variável e inicializá-la com um tipo sem tipo, antes
+de recebermos um valor final.
+
+```Python
+numeros = None
+
+print(numeros)
+print(type(numeros))
+
+numeros = 1.44, 1.34, 5.67
+
+print(numeros)
+print(type(numeros))
+
+```
+
+Saída:
+```Sh
+None
+<class 'NoneType'>
+(1.44, 1.34, 5.67)
+<class 'tuple'>
+```
+
+#### Tipo String
+
+Já vimos que em Python um dado é considerado do tipo string sempre que:
+
+- Estiver entre aspas simples -> 'Nome', '222', 'a', 'True', '12.3'
+- Sempre que estiver entre aspas duplas -> "nome", "222", "a", "True", "12.3"
+- Sempre que estiver entre aspas simples triplas -> '''nome''', '''1222''', '''s''', '''True''', '''12.58'''
+- Sempre que estiver entre aspas duplas triplas -> Da mesma forma porem utilizando as
+
+
+```Python
+nome = 'Geek University'
+
+print(nome)
+print(type(nome))
+```
+
+Saída:
+```Sh
+Geek University
+<class 'str'>
+```
+
+
 
