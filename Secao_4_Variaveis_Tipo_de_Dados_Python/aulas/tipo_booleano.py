@@ -1,23 +1,4 @@
-"""
-Tipo Booleano.
 
-Algebra booleana, criada por George Boole
-
-2 constante, Vertadeiro ou Falso.
-
-True -> Verdadeiro
-False -> Falso
-
-Obs: Sempre com a primeira letra maiuscula.
-
-Errado:
-
-true, false
-
-Certo:
-
-True, False.
-"""
 ativo = False
 logado = False
 
@@ -28,7 +9,7 @@ print(ativo)
 # Negação (not):
 
 """
-Fazendo a negação, se o valor booleano for verdadeiro o resultado será falso.
+Fazendo a negação, se o valor boolean for verdadeiro o resultado será falso.
 se for falso o resultado será verdadeiro. Ou seja, sempre o contrário.
 
 """
