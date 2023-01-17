@@ -8,7 +8,7 @@ nom_da_variavel = valor_da_variavel
 
 Python é uma linguagem de tipagem dinâmica. Isso significa que ao declararmos uma variável, nós não colocamos o tipo de dado dela.
 
-Este tipo é inferido ao atribuímos o valor à mesma.
+Este tipo é inferido ao atribuírmos o valor à mesma.
 
 **Exemplo em C:**
 ```C
@@ -268,4 +268,6 @@ Algebra booleana, criada por George Boole
 ![imagem verdade](https://github.com/Antonio-AF/Curso_de_Python/blob/main/Secao_4_Variaveis_Tipo_de_Dados_Python/imgs/Tabela%20Verdade.jpg?raw=true)
 ![imagem tabela verdade AND](https://github.com/Antonio-AF/Curso_de_Python/blob/main/Secao_4_Variaveis_Tipo_de_Dados_Python/imgs/Tabela%20Verdade%20AND.jpg?raw=true)
 
-O tipo Booleano é um subtipo do Int e por isso pode ser representado pelos valores True e False. Quando uma variável é definida como ```Python True ```, seu valor é verdadeiro. E no caso de receber o valor ```Python False ```, seu valor é Falso.
+O tipo Booleano é um subtipo do Int e por isso pode ser representado pelos valores True e False. Quando uma variável é definida como``` True ```, seu valor é verdadeiro. E no caso de receber o valor ``` False ```, seu valor é Falso.
+
+
