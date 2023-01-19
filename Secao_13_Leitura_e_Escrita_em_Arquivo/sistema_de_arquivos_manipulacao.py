@@ -22,14 +22,14 @@ print(os.path.exists('frutas.txt')) # Return True because the file exist.
 # Diretórios (Directory)
 
 # Paths relatives
-print(os.path.exists('../geek'))  # Return  True
-print(os.path.exists('../geek/university')) # Return True
-print(os.path.exists('../geek/university/geek3.py')) # Return True
+print(os.path.exists('../Secao_12_Trabalhando_com_Módulos_Python/geek'))  # Return  True
+print(os.path.exists('../Secao_12_Trabalhando_com_Módulos_Python/geek/university')) # Return True
+print(os.path.exists('../Secao_12_Trabalhando_com_Módulos_Python/geek/university/geek3.py')) # Return True
 print(os.path.exists('outros')) # Return False
 
 # Path absolutes
 print(os.path.exists('/home/geek/university'))
-print(os.path.exists('../geek/Imagens'))
+print(os.path.exists('../Secao_12_Trabalhando_com_Módulos_Python/geek/Imagens'))
 
 # Creating files
 

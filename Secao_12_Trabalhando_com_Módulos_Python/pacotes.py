@@ -14,8 +14,8 @@ normalmente ainda é utilizado para manter compatibilidade.
 
 """
 
-from geek.geek1 import funcao1
-from geek.university import geek3, geek4
+from Secao_12_Trabalhando_com_Módulos_Python.geek import funcao1
+from Secao_12_Trabalhando_com_Módulos_Python.geek import geek3, geek4
 
 #print(geek1.pi)
 

@@ -1,5 +1,6 @@
 from PIL import Image
-import glob, os
+import glob
+import os
 
 # print(im.format, im.size, im.mode)  # Comando nos dá o tamanho da imagem a extensão e o sistema de cor.
 
